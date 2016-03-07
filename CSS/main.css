@@ -23,7 +23,7 @@ body {
 	
 	#BannerImage {
 		width: 100%;
-		background-image: url("../img/background.png");
+		background-image: url("../IMG/background.png");
 		background-repeat: no-repeat;
 		min-height: 500px;
 		background-position: center;
