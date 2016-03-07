@@ -7,13 +7,18 @@ body {
 	font-style: normal;
 }
 
+/* Make sections BLUE, WIDE, and CENTERED */
 #Title, footer, #ConceptSection {
 	text-align: center;
 	width: 100%;
 	background-color: #D0E3EA;
 }
 
-
+.icons {
+	width: 300px;
+	height: 300px;
+	border: solid 3px black;
+}
 
 
 
