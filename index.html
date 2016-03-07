@@ -41,9 +41,19 @@
 
 	
 	<!-- Concepts -->
-	<div ng-controller="ConceptCtrl">
+	<div ng-controller="SectionCtrl">
 		<h1>Concepts</h1>
-		<table class="table">
+
+		<div class="container">
+			<div id="ConceptIcons" ng-repeat="concept in concepts | orderBy: 'title'">
+				<div class="col-md-4">
+					<img class="icons" ng-src="{{concept.icon}}">
+					<h2 class="iconHeader" style="cursor:pointer" ng-click="conceptInfo(concept)">{{concept.title}}</h2>
+				</div>
+			</div>
+		</div>
+
+		<!-- <table class="table">
 			<tr>
 				<th><a href="" ng-click="sortBy = 'title'">Title</a></th>
 				<th>Icon</th>
@@ -58,7 +68,7 @@
 				<th>{{concept.paragraph}}</th>
 				<th>{{concept.image}}</th>
 			</tr>
-		</table>
+		</table> -->
 	</div>
 
 	
