@@ -1,86 +1,94 @@
+<!-- Diana Griffing: EDPSY406 Group Portfolio -->
 <!DOCTYPE html5>
-<html lang="en" ng-app="myApp">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Ed Tech Portfolio</title>
+	<title>Ed Tech Portfolio</title>
 
-		<link rel="stylesheet" href="CSS/main.css"/>
-		<link rel="icon" type="png" href="IMG/edtech_icon.png">
+	<link rel="stylesheet" href="CSS/main.css"/>
+	<link rel="icon" type="png" href="IMG/edtech_icon.png">
 
-		<!-- load Angular -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
-	    <!-- JQuery -->
-	    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>    
-	    <!-- JS Bootstrap for nav bar -->
-	    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	</head>
+	<!-- load Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+</head>
 
-	<body>
+<body ng-app="myApp">
 
-		<!-- Image of Kids at Computer -->
-		<div class="container" id="BannerImage"></div>
+	<!-- Image of Kids at Computer -->
+	<div class="container" id="BannerImage"></div>
 
-		
-		<!-- Title area -->
-		<div class="container" id="Title">
-			<h3>Education Psychology 406 : Group 6</h3>
-			<h1>Learning Through Technology</h1>
-			<h3>By: Irina Fomina, Diana Griffing, Alex Tang</h3>
+	
+	<!-- Title area -->
+	<div class="container" id="Title">
+		<h3>Education Psychology 406 : Group 6</h3>
+		<h1>Learning Through Technology</h1>
+		<h3>By: Irina Fomina, Diana Griffing, Alex Tang</h3>
+	</div>
+
+	
+	<!-- Define Real Learning -->
+	<div class="container" id="RealLearning">
+		<div class="col-xs-12, col-md-3">
+			<h3>Real Learning:</h3>
 		</div>
-
-		
-		<!-- Define Real Learning -->
-		<div class="container" id="RealLearning">
-			<div class="col-xs-12, col-md-3">
-				<h3>Real Learning:</h3>
-			</div>
-			<div class="col-xs-12, col-md-9">
-				<p>Whether it be inside or outside the classroom setting, real learning takes place when there is a motivational incentive <i>(intrinsic or extrinsic)</i> that keeps the learner engaged with material that is appropriate for their current understanding of the subject <i>(not too difficult that it causes frustration, not to easy that it causes boredom)</i>.</p>
-			</div>
+		<div class="col-xs-12, col-md-9">
+			<p>Whether it be inside or outside the classroom setting, real learning takes place when there is a motivational incentive <i>(intrinsic or extrinsic)</i> that keeps the learner engaged with material that is appropriate for their current understanding of the subject <i>(not too difficult that it causes frustration, not to easy that it causes boredom)</i>.</p>
 		</div>
+	</div>
 
-		
-		<!-- Concepts -->
-		<div class="row, blue, container" id="ConceptSection">
-			<h2 class="SectionHeader">Concepts</h2>
-			<!-- Concept Listing -->
-			<div class="col-xs-12, col-lg-6 well clearfix" ng-repeat="concept in concepts | orderBy:concept.title">
-				<h2><a ui-sref="concept({id: concept.id})">{{concept.name}}</a></h2>
-				<p>{{concept.definition}}</p>
-				<p>{{concept.paragraph}}</p>
-			</div>
+	
+	<!-- Concepts -->
+	<div ng-controller="ConceptCtrl">
+		<h1>Concepts</h1>
+		<table class="table">
+			<tr>
+				<th><a href="" ng-click="sortBy = 'title'">Title</a></th>
+				<th>Icon</th>
+				<th>Definition</th>
+				<th>About</th>
+				<th>Image</th>
+			</tr>
+			<tr ng-repeat="concept in concepts | orderBy:sortBy">
+				<th>{{concept.title}}</a></th>
+				<th>{{concept.icon}}</th>
+				<th>{{concept.definition}}</th>
+				<th>{{concept.paragraph}}</th>
+				<th>{{concept.image}}</th>
+			</tr>
+		</table>
+	</div>
+
+	
+	<!-- Conclusion -->
+	<div class="container" id="Conclusion">
+		<div class="col-xs-12, col-md-3">
+			<h3>Conclusion:</h3>
 		</div>
-
-		
-		<!-- Conclusion -->
-		<div class="container" id="Conclusion">
-			<div class="col-xs-12, col-md-3">
-				<h3>Conclusion:</h3>
-			</div>
-			<div class="col-xs-12, col-md-9">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
-			</div>
+		<div class="col-xs-12, col-md-9">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
 		</div>
+	</div>
 
-		
-		<!-- Footer -->
-		<footer>
-			<div>
-				<h3>Group 6</h3>
-				<h2>Irina Fomina | Diana Griffing | Alex Tang</h2>
-			</div>
-		</footer>
+	
+	<!-- Footer -->
+	<footer>
+		<div>
+			<h3>Group 6</h3>
+			<h2>Irina Fomina | Diana Griffing | Alex Tang</h2>
+		</div>
+	</footer>
 
 
-		<!-- load external libraries -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-		<script src="lib/ui-bootstrap-tpls-0.14.3.min.js"></script>
-		<script src="//code.angularjs.org/1.4.7/angular-sanitize.js"></script>
+<!-- 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+	<script src="lib/ui-bootstrap-tpls-0.14.3.min.js"></script>
+	<script src="//code.angularjs.org/1.4.7/angular-sanitize.js"></script> -->
 
-		<!-- load script -->
-		<script src="js/app.js"></script>
+	<!-- load script -->
+	<script src="js/app.js"></script>
 
-	</body>
+</body>
 </html>
