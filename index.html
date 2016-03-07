@@ -19,14 +19,19 @@
 
 	<body>
 
+		<!-- Image of Kids at Computer -->
 		<div class="container" id="BannerImage"></div>
 
+		
+		<!-- Title area -->
 		<div class="container" id="Title">
-			<p>Education Psychology 406 : Group 6</p>
+			<h3>Education Psychology 406 : Group 6</h3>
 			<h1>Learning Through Technology</h1>
-			<p>By: Irina Fomina, Diana Griffing, Alex Tang</p>
+			<h3>By: Irina Fomina, Diana Griffing, Alex Tang</h3>
 		</div>
 
+		
+		<!-- Define Real Learning -->
 		<div class="container" id="RealLearning">
 			<div class="col-xs-12, col-md-3">
 				<h3>Real Learning:</h3>
@@ -36,19 +41,11 @@
 			</div>
 		</div>
 
-		<!-- Concept Listings
-		<div class="blue" id="Concepts">
-			<p>this is where the concepts should</p>
-			<div id="concept"  ng-repeat="concept in concepts | orderBy: 'title'">
-				<div class="col-md-4">
-				    <img class="iconPic" ng-src="{{concept.icon}}">
-				    <h2 class="modalHeader" style="cursor:pointer" ng-click="conceptInfo(concept)">{{concept.title}}</h2>
-				    <br>
-				</div>    
-		    </div> 
-		</div> -->
+		
+		<!-- Concepts -->
 		<div class="row, blue, container" id="ConceptSection">
 			<h2 class="SectionHeader">Concepts</h2>
+			<!-- Concept Listing -->
 			<div class="col-xs-12, col-lg-6 well clearfix" ng-repeat="concept in concepts | orderBy:concept.title">
 				<h2><a ui-sref="concept({id: concept.id})">{{concept.name}}</a></h2>
 				<p>{{concept.definition}}</p>
@@ -56,6 +53,8 @@
 			</div>
 		</div>
 
+		
+		<!-- Conclusion -->
 		<div class="container" id="Conclusion">
 			<div class="col-xs-12, col-md-3">
 				<h3>Conclusion:</h3>
@@ -65,6 +64,8 @@
 			</div>
 		</div>
 
+		
+		<!-- Footer -->
 		<footer>
 			<div>
 				<h3>Group 6</h3>
