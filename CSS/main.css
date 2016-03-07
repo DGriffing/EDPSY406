@@ -7,14 +7,12 @@ body {
 	font-style: normal;
 }
 
-#Title, footer, .SectionHeader {
+#Title, footer, #ConceptSection {
 	text-align: center;
-}
-
-.blue {
 	width: 100%;
 	background-color: #D0E3EA;
 }
+
 
 
 
