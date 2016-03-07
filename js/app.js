@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('myApp', [])
-.controller('SectionCtrl', ['$scope', '$http', '$uibModal', '$filter', '$stateParams', function($scope, $http, $uibModal, $filter, $stateParams) {
+.controller('SectionCtrl', ['$scope', '$http', '$uibModal', '$filter', function($scope, $http, $uibModal, $filter) {
 
 	// Connects data on Concepts
 	$http.get('data/concepts.json').then(function(response){
