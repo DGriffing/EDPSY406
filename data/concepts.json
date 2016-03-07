@@ -4,23 +4,23 @@
     "title": "Adaptive Learning",
     "definition": "This is an educational method which uses computers as interactive teaching devices. Computers adapt the presentation of educational material according to students' learning needs, as indicated by their responses to questions and tasks. The motivation is to allow electronic education to incorporate the value of the interactivity afforded to a student by an actual human teacher or tutor. The technology encompasses aspects derived from various fields of study including computer science, education, and psychology.",
     "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
-    "image": "img/adaptive.png",
-    "icon": "img/adaptive_icon.jpg"
+    "image": "IMG/adaptive.png",
+    "icon": "IMG/adaptive_icon.jpg"
   },
   {
     "id": "Blended",
     "title": "Blended Learning",
     "definition": "A blended learning approach combines face to face classroom methods with computer-mediated activities to form an integrated instructional approach. In the past, digital materials have served in a supplementary role, helping to support face to face instruction.For example, a blended approach to a traditional, face to face course might mean that the class meets once per week instead of the usual three-session format. Learning activities that otherwise would have taken place during classroom time can be moved online.",
     "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
-    "image": "img/blended.jpg",
-    "icon": "img/blended_icon.png"
+    "image": "IMG/blended.jpg",
+    "icon": "IMG/blended_icon.png"
   },
   {
     "id": "Virtual",
     "title": "Virtual Classroom",
     "definition": "A virtual classroom is an online learning environment. The environment can be web-based and accessed through a portal or software-based and require a downloadable executable file. Just like in a real-world classroom, a student in a virtual classroom participates in synchronous instruction, which means that the teacher and students are logged into the virtual learning environment at the same time.",
     "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
-    "image": "img/virtual.jpeg",
-    "icon": "img/virtual_icon.png"
+    "image": "IMG/virtual.jpeg",
+    "icon": "IMG/virtual_icon.png"
   }
 ]
