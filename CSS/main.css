@@ -7,7 +7,7 @@ body {
 	font-style: normal;
 }
 
-#Title, footer {
+#Title, footer, .SectionHeader {
 	text-align: center;
 }
 
