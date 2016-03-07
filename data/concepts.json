@@ -16,6 +16,38 @@
     "icon": "IMG/blended_icon.png"
   },
   {
+    "id": "Directed",
+    "title": "Self Directed Learning",
+    "definition": "blah",
+    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "image": "IMG/blended.jpg",
+    "icon": "IMG/blended_icon.png"
+  },
+  {
+    "id": "LMS",
+    "title": "Learning Management System",
+    "definition": "blah",
+    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "image": "IMG/blended.jpg",
+    "icon": "IMG/blended_icon.png"
+  },
+  {
+    "id": "CMS",
+    "title": "Course Management System",
+    "definition": "blah",
+    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "image": "IMG/blended.jpg",
+    "icon": "IMG/blended_icon.png"
+  },
+  {
+    "id": "Gamification",
+    "title": "Gamification",
+    "definition": "blah",
+    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "image": "IMG/blended.jpg",
+    "icon": "IMG/blended_icon.png"
+  },
+  {
     "id": "Virtual",
     "title": "Virtual Classroom",
     "definition": "A virtual classroom is an online learning environment. The environment can be web-based and accessed through a portal or software-based and require a downloadable executable file. Just like in a real-world classroom, a student in a virtual classroom participates in synchronous instruction, which means that the teacher and students are logged into the virtual learning environment at the same time.",
