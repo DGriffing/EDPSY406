@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp', [])
+angular.module('myApp', ["ui.bootstrap"])
 .controller('SectionCtrl', ['$scope', '$http', '$uibModal', '$filter', function($scope, $http, $uibModal, $filter) {
 
 	// Connects data on Concepts
