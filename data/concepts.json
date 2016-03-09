@@ -3,47 +3,52 @@
     "id": "Adaptive",
     "title": "Adaptive Learning",
     "definition": "This is an educational method which uses computers as interactive teaching devices. Computers adapt the presentation of educational material according to students' learning needs, as indicated by their responses to questions and tasks. The motivation is to allow electronic education to incorporate the value of the interactivity afforded to a student by an actual human teacher or tutor. The technology encompasses aspects derived from various fields of study including computer science, education, and psychology.",
-    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "paragraph":"Adaptive learning in large part is connected to the Zone of Proximal Development (ZPD).  The ZPD is the distance between the current capabilities, restricted by the developmental level, and the potential capabilities that can be achieved with help from others. One can learn skills that are outside their developmental level with the proper guidance or encouragement from a knowledgeable individual.
+    In the diagram above, there are different types of supports present from the instructor and different learning systems that students utilize in order to achieve academically.  It is seen that Student 1, 2, and 3 have different methods with taking the tests, while utilizing particular materials presented to be successful.  Adaptive learning in this classroom based setting allows interactivity with the technology is used, which enforces motivation because students can shape their learning outcomes.",
     "image": "IMG/adaptive.png",
     "icon": "IMG/adaptive_icon.jpg"
   },
   {
     "id": "Blended",
     "title": "Blended Learning",
-    "definition": "A blended learning approach combines face to face classroom methods with computer-mediated activities to form an integrated instructional approach. In the past, digital materials have served in a supplementary role, helping to support face to face instruction.For example, a blended approach to a traditional, face to face course might mean that the class meets once per week instead of the usual three-session format. Learning activities that otherwise would have taken place during classroom time can be moved online.",
-    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "definition": "A blended learning approach combines face to face classroom methods with computer-mediated activities to form an integrated instructional approach. Digital material serves a supplementary role, helping to support face to face instruction. For example, some of the classroom content might be moved online for the student to complete outside the classroom.",
+    "paragraph":"Scaffolding plays a central role in the blended learning environment. In the classroom, the instructor introduces information by gives a lecture to the whole class. Students collaborate in the classroom to understand the content. By adding an online learning portion to the classroom, the topic studied can be tailored to fit every individual student. The online portion is self-paced thus students who struggle more in one area can spend additional time on the topic. Additional practice might be necessary in the beginning to support the student, but over time it can be taken away to push the student towards deeper learning. The online portion also monitors the progress of the individual student. This allows the teacher to present additional challenges to the students who excel to push them towards deeper understanding of the topic. The blended learning approach allows the teacher and students to stay on the same topic, but it provides room for tailoring the curriculum to the individual student.
+    Real learning occurs because motivation keeps the learner engaged with the material at hand. The classroom portion acts as the extrinsic motivational factor because the student is introduced to the topic by the teacher. The student engages with the material because that is part of their curriculum. Intrinsic motivation comes in with the online portion. Students are given room to dive deeper into their studies based on personal desire to learn more.",
     "image": "IMG/blended.jpg",
     "icon": "IMG/blended_icon.png"
   },
   {
     "id": "Directed",
     "title": "Self Directed Learning",
-    "definition": "blah",
-    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "definition": "Self-directed learning’ describes a process by which individuals take the initiative, with our without the assistance of others, in diagnosing their learning needs, formulating learning goals, identify human and material resources for learning, choosing and implement appropriate learning strategies, and evaluating learning outcomes.”",
+    "paragraph":"Self-directed learning, in relation to cognition, has ties with concept of expertise.  In order to successfully thrive and develop in a classroom setting, learning expertise involves continually monitoring oneself, practicing, and carving a path to move to the next level (Bransford & Shcwartz, 2009).  “It takes expertise to make expertise,” “Practice makes permanent, not perfect,” are phrases that are often introduced while learning expertise.  Expertise ultimately allows a student who has learned and mastered the knowledge of a particular topic to teach to others. 
+    Self-directed learning in the classroom based learning allows the student to take necessary measures to succeed, consistently customizing their learning goals and utilizing the resources that are available for them to learn.  A very critical component to self-directed learning is consistently evaluating one’s outcomes, since “it takes expertise to make expertise.",
     "image": "IMG/blended.jpg",
     "icon": "IMG/blended_icon.png"
   },
   {
     "id": "LMS",
     "title": "Learning Management System",
-    "definition": "blah",
-    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "definition": "A learning management system (LMS) is a software application or Web-based technology used to plan, implement, and assess a specific learning process. Typically, a learning management system provides an instructor with a way to create and deliver content, monitor student participation, and assess student performance. A learning management system may also provide students with the ability to use interactive features such as threaded discussions, video conferencing, and discussion forums.",
+    "paragraph":"Learning Management Systems (LMS) appears to be related to sociocultural theory in terms of scaffolding.  Scaffolding is support given to a student during the learning process, customized to their needs, to assist their learning goals. Scaffolding promotes a deeper level of learning that the student would not be able to accomplish alone. 
+    In LMS, the instructor is able to give students the materials and tools in order to succeed through this software application, allowing students to do well in a community-based setting.  Thus, the instructor is able to incorporate and utilize a specific learning process to prove support, so that the student is able to tailor their learning in a way that they are comfortable with their particular learning objectives.",
     "image": "IMG/blended.jpg",
     "icon": "IMG/blended_icon.png"
   },
   {
     "id": "CMS",
     "title": "Course Management System",
-    "definition": "blah blah",
-    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "definition": "A course management system is a set of tools that enables the instructor to create online course content and post it on the Web without having to handle HTML or other programming languages. Web developers and office of information technology work with staff and faculty to produce a public website accessible for all teachers.",
+    "paragraph":"The CMS uses scaffolding to support teachers in their careers. Scaffolding involves giving some support to be able to accomplish more than one would on their own. The CMS is a rich source of information when it comes to solving conflicts that a teacher faces within his/her classroom. A teacher access the website to see whether other teachers faced similar problems and how they dealt with them. They have the necessary support to help them resolve conflicts. With this support in place, they are able to reach their goals.
+    Learning, in this case, is driven by both intrinsic and extrinsic motivation. The teacher faces an issue that needs to be resolved, thus an outside event triggers their search for a solution. If the teacher was to use the CMS to build their expertise in teaching by preparing to handle different conflicts s/he might encounter, then intrinsic motivation triggers their learning. In both cases, the teacher engages with the material to build understanding.",
     "image": "IMG/blended.jpg",
     "icon": "IMG/blended_icon.png"
   },
   {
     "id": "Gamification",
     "title": "Gamification",
-    "definition": "blah",
-    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "definition": "Gamification is a learning strategy that incorporates game design elements to learning applications. This may include badge systems like the ones found in Khan Academy, levels and points as shown in DuoLingo, or competition with friends like in IXL.",
+    "paragraph":"Gamification is an exemplarary way to provide motivation to students through strategies that they are used to and love from their extra curricular games. These instantaneous feedback and reward system ties directly into Skinner's opperant conditioning.",
     "image": "IMG/blended.jpg",
     "icon": "IMG/blended_icon.png"
   },
@@ -51,7 +56,9 @@
     "id": "Virtual",
     "title": "Virtual Classroom",
     "definition": "A virtual classroom is an online learning environment. The environment can be web-based and accessed through a portal or software-based and require a downloadable executable file. Just like in a real-world classroom, a student in a virtual classroom participates in synchronous instruction, which means that the teacher and students are logged into the virtual learning environment at the same time.",
-    "paragraph":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.",
+    "paragraph":"A virtual classroom is an online learning experience. Whether it be a recorded session, live audio or video support, live tech support, or a web-based environment, learning is facilitated through the use of technology. Synchronous learning must be present where the instructor and the student are logged on into the virtual learning environment at the same time. Through the online medium, the instructor and student are able to interact and engage in teaching and learning.
+    Teaching and learning occurs in the virtual classroom, from a cognitivist viewpoint. The student organizes the information presented and makes sense of it by building or modifying schemas. They can assimilate the information and using an existing schema to understand/define the new stimuli or they can accommodate the information by altering an existing schema or creating new ones in response to new information. Both methods allow the student to make sense of the content presented and build understanding. They become informed individuals that can use the knowledge presented to guide their behaviors and choices. The teacher, on the other hand, presents the information in chunks to facilitate learning. Step by step presentation of knowledge allows the students to build their expertise in the topic presented. Synchronous learning allows the interflow of feedback between the student and the teacher thus allowing the student to make sense of the world and organize knowledge within their developmental level.
+    Motivational incentives, both intrinsic and extrinsic, drive the student to learn in the virtual classroom. Intrinsic motivation comes from the desire to attain more knowledge in a specific topic presented in the online environment. Extrinsic motivation comes from the meeting specific requirement, like getting credits towards earning a degree. Motivation pushes the individual to engage with the content and succeed in the classroom. The student thus develops greater understanding in the topic of study.",
     "image": "IMG/blended.jpg",
     "icon": "IMG/blended_icon.png"
   }
