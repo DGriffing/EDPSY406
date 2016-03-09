@@ -50,8 +50,8 @@
 		<div class="container">
 			<div id="ConceptIcons" ng-repeat="concept in concepts | orderBy: 'title'">
 				<div class="col-md-4">
-					<img class="icons" ng-src="{{concept.icon}}">
-					<h2 class="iconHeader" style="cursor:pointer" ng-click="conceptInfo(concept)">{{concept.title}}</h2>
+					<img class="icons" ng-src="{{concept.icon}}" style="cursor:pointer" ng-click="conceptInfo(concept)">
+					<h2 class="iconHeader" >{{concept.title}}</h2>
 				</div>
 			</div>
 		</div>
